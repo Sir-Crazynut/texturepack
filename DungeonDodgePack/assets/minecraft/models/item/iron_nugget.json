@@ -4,11 +4,7 @@
     "layer0": "minecraft:item/iron_nugget"
   },
   "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 5000007
-      },
-      "model": "minecraft:item/iron_sliver"
-    }
+    { "predicate": { "custom_model_data": 5000007 }, "model": "dungeondodge:item/iron_sliver" },
+    { "predicate": { "custom_model_data": 5000008 }, "model": "minecraft:item/iron_nugget" }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/wooden_sword"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 1000008 }, "model": "dungeondodge:item/birch_wood_sword" },
+    { "predicate": { "custom_model_data": 1000009 }, "model": "minecraft:item/wooden_sword" }
+  ]
+}

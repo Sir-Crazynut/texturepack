@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 0, -90, 45 ],
+      "translation": [ 0, 8.0, 1 ],
+      "scale": [ 0.85, 1.05, 0.85 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 0, 90, -45 ],
+      "translation": [ 0, 8.0, 1 ],
+      "scale": [ 0.85, 1.05, 0.85 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 45 ],
+      "translation": [ 1.13, 4.1, 1.13 ],
+      "scale": [ 0.68, 0.88, 0.68 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 90, -45 ],
+      "translation": [ 1.13, 4.1, 1.13 ],
+      "scale": [ 0.68, 0.88, 0.68 ]
+    }
+  },
+  "textures": {
+    "layer0": "dungeondodge:item/icicle_blade"
+  }
+}

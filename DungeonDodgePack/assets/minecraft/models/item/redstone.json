@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/redstone"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000005 }, "model": "dungeondodge:item/monster_essence" },
+    { "predicate": { "custom_model_data": 5000006 }, "model": "minecraft:item/redstone" }
+  ]
+}

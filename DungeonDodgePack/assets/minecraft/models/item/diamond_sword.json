@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_sword"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 1000003 }, "model": "dungeondodge:item/enchanted_sword" },
+    { "predicate": { "custom_model_data": 1000004 }, "model": "minecraft:item/diamond_sword" },
+
+    { "predicate": { "custom_model_data": 1000021 }, "model": "dungeondodge:item/icicle_blade"    },
+    { "predicate": { "custom_model_data": 1000022 }, "model": "minecraft:item/diamond_sword" }
+  ]
+}
