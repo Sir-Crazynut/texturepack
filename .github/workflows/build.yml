@@ -1,0 +1,107 @@
+name: Pack source
+
+on:
+    push:
+        branches: [gh_actions_test, main]
+    pull_request_target:
+        branches: [main]
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: windows-latest
+
+        name: Packing
+        permissions: write-all
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Pack DungeonDodgePack
+              shell: bash
+              run: |
+                echo "Zipping DungeonDodgePack"
+                7z a DungeonDodgePack.zip ./DungeonDodgePack/**
+                
+            - name: Upload DungeonDodgePack
+              uses: actions/upload-artifact@v4
+              with:
+                name: dungeondodgepack
+                path: DungeonDodgePack.zip
+
+    post-github:
+        needs: build
+        runs-on: ubuntu-latest
+
+        name: Deploy to Github Releases
+        permissions: write-all
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Install Zip
+              uses: montudor/action-zip@v1
+
+            - name: Download DungeonDodgePack
+              uses: actions/download-artifact@v4
+              with:
+                name: dungeondodgepack
+
+            - name: Make a release
+              uses: ncipollo/release-action@v1
+              with:
+                artifacts: "DungeonDodgePack.zip"
+                tag: "${{ github.run_number }}"
+                name: "Pack update (${{ github.run_number }})"
+                body: "Pack update (${{ github.ref }})"
+                makeLatest: true
+
+    post-discord:
+        needs: build
+        runs-on: ubuntu-latest
+
+        name: Deploy to Discord
+        permissions: write-all
+
+        steps:
+            - uses: actions/checkout@v3
+            
+            - name: Retrieve Embed Data
+              shell: bash
+              run: |
+                echo "AUTHOR=${{ github.event.pull_request.user.login || github.event.head_commit.author.name }}" >> $GITHUB_ENV
+                echo "DESCRIPTION=${{ github.event.head_commit.message }}" >> $GITHUB_ENV
+                echo "BRANCH=${{ github.head_ref || github.ref_name }}" >> $GITHUB_ENV
+                echo "COMMIT_SHORT=$(git rev-parse --short "$GITHUB_SHA")" >> $GITHUB_ENV
+                echo "COMMIT_LONG=$GITHUB_SHA" >> $GITHUB_ENV
+                
+            - name: Notify Discord
+              shell: pwsh
+              run: >
+                curl
+                ${{ secrets.NOTIFY_CHANNEL }}
+                -F 'payload_json={"embeds": [{
+                    "title": "Texture Pack update",
+
+                    "author": {
+                        "name": "${{ env.AUTHOR }}",
+                        "icon_url": "https://github.com/${{ env.AUTHOR }}.png"
+                    },
+                    "description": "${{ env.DESCRIPTION }}",
+
+                    "fields": [{
+                        "name": "Branch",
+                        "value": "[`${{ env.BRANCH }}`](https://github.com/DungeonDodgeMC/texturepack/tree/${{ env.BRANCH }})",
+                        "inline": true
+                    },
+                    {
+                        "name": "Commit",
+                        "value": "[`${{ env.COMMIT_SHORT }}`](https://github.com/DungeonDodgeMC/texturepack/commit/${{ env.COMMIT_LONG }})",
+                        "inline": true
+                    },
+                    {
+                        "name": "Download DungeonDodgePack",
+                        "value": "[Link](https://github.com/DungeonDodgeMC/texturepack/releases/download/${{ github.run_number }}/DungeonDodgePack.zip)",
+                        "inline": false
+                    }]
+                }]}'
