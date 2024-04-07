@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_axe"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 1000033 }, "model": "dungeondodge:item/dungeon_raiders_axe" },
+    { "predicate": { "custom_model_data": 1000034 }, "model": "minecraft:item/iron_axe" }
+  ]
+}

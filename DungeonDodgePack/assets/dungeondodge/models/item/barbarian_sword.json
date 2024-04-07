@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dungeondodge:item/barbarian_sword"
+  }
+}

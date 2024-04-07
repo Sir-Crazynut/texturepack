@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_axe"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 1000056 }, "model": "dungeondodge:item/frost_steel_waraxe" },
+    { "predicate": { "custom_model_data": 1000057 }, "model": "minecraft:item/diamond_axe" }
+  ]
+}
