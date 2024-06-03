@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/amethyst_shard"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000052 }, "model": "dungeondodge:item/gemstone_shard" },
+    { "predicate": { "custom_model_data": 5000053 }, "model": "minecraft:item/amethyst_shard" }
+  ]
+}

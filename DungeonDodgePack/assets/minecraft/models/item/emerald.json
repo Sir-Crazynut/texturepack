@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/emerald"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000051 }, "model": "dungeondodge:item/damaged_emerald" },
+    { "predicate": { "custom_model_data": 5000052 }, "model": "minecraft:item/emerald" }
+  ]
+}

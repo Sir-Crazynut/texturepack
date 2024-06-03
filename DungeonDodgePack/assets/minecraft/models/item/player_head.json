@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/template_skull",
+  
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000088 }, "model": "dungeondodge:item/hydrous_shard" },
+    { "predicate": { "custom_model_data": 5000089 }, "model": "minecraft:item/template_skull" }
+  ]
+}

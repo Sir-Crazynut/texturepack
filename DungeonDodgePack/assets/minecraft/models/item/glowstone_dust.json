@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/glowstone_dust"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000035 }, "model": "dungeondodge:item/danger_essence" },
+    { "predicate": { "custom_model_data": 5000036 }, "model": "minecraft:item/glowstone_dust" }
+  ]
+}
