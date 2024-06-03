@@ -6,6 +6,7 @@
  
   "overrides": [
     { "predicate": { "custom_model_data": 1000006 }, "model": "dungeondodge:item/barbarian_sword" },
-    { "predicate": { "custom_model_data": 1000007 }, "model": "minecraft:item/golden_sword" }
+    { "predicate": { "custom_model_data": 1000007 }, "model": "minecraft:item/golden_sword" },
+    { "predicate": { "custom_model_data": 10000036 }, "model": "dungeondodge:item/ceremonial_dagger" }
   ]
 }
