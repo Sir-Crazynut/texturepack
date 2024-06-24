@@ -3,18 +3,9 @@
   "textures": {
     "layer0": "minecraft:item/string"
   },
+  
   "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 5000006
-      },
-      "model": "minecraft:item/string"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 5000013
-      },
-      "model": "minecraft:item/e_string"
-    }
+    {"predicate": {"custom_model_data": 5000006}, "model": "minecraft:item/string"},
+    {"predicate": {"custom_model_data": 5000013},"model": "minecraft:item/enchanted_string"}
   ]
 }
