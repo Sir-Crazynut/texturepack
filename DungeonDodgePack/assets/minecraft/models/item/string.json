@@ -6,6 +6,6 @@
   
   "overrides": [
     { "predicate": "custom_model_data": 5000013, "dungeondodge:item/enchanted_string" },
-    { "predicate": "custom_model_data": 5000006, "minecraft:item/string" }
+    { "predicate": "custom_model_data": 5000014, "minecraft:item/string" }
   ]
 }
