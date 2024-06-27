@@ -2,6 +2,9 @@
   "parent": "minecraft:item/template_skull",
   
   "overrides": [
+    { "predicate": { "custom_model_data": 5000004 }, "model": "dungeondodge:item/hard_rock" },
+    { "predicate": { "custom_model_data": 5000005 }, "model": "minecraft:item/template_skull" },
+
     { "predicate": { "custom_model_data": 5000088 }, "model": "dungeondodge:item/hydrous_shard" },
     { "predicate": { "custom_model_data": 5000089 }, "model": "minecraft:item/template_skull" },
 
