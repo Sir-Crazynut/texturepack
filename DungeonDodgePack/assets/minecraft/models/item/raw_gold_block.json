@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/raw_gold_block",
+  
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000101 }, "model": "dungeondodge:item/gold_chunk" },
+    { "predicate": { "custom_model_data": 5000102 }, "model": "minecraft:item/raw_gold_block" }
+  ]
+}
