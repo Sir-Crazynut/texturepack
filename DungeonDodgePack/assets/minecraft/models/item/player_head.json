@@ -10,11 +10,16 @@
     { "predicate": { "custom_model_data": 5000080 }, "model": "dungeondodge:item/silver_reel" },
 
     { "predicate": { "custom_model_data": 5000081 }, "model": "dungeondodge:item/golden_reel" },
+    { "predicate": { "custom_model_data": 5000082 }, "model": "minecraft:item/template_skull" },
 
     { "predicate": { "custom_model_data": 5000088 }, "model": "dungeondodge:item/hydrous_shard" },
     { "predicate": { "custom_model_data": 5000089 }, "model": "minecraft:item/template_skull" },
 
     { "predicate": { "custom_model_data": 5000090 }, "model": "dungeondodge:item/diamond_reel" },
+    { "predicate": { "custom_model_data": 5000091 }, "model": "minecraft:item/template_skull" },
+
+    { "predicate": { "custom_model_data": 5000097 }, "model": "dungeondodge:item/super_singularity_core" },
+    { "predicate": { "custom_model_data": 5000098 }, "model": "minecraft:item/template_skull" },
 
     { "predicate": { "custom_model_data": 5700047 }, "model": "dungeondodge:item/experience_ornament" },
     { "predicate": { "custom_model_data": 5700048 }, "model": "minecraft:item/template_skull" }
