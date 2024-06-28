@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/bow",
+    "textures": {
+        "layer0": "dungeondodge:item/arctic_arch_pulling_1"
+    }
+}
