@@ -1,0 +1,6 @@
+{
+    "parent": "dungeondodge:item/fishing_rod",
+    "textures": {
+        "layer0": "dungeondodge:item/fishing_rod_cast"
+    }
+}
