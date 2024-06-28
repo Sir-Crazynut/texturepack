@@ -25,6 +25,9 @@
     { "predicate": { "custom_model_data": 5000098 }, "model": "minecraft:item/template_skull" },
 
     { "predicate": { "custom_model_data": 5700047 }, "model": "dungeondodge:item/experience_ornament" },
-    { "predicate": { "custom_model_data": 5700048 }, "model": "minecraft:item/template_skull" }
+    { "predicate": { "custom_model_data": 5700048 }, "model": "minecraft:item/template_skull" },
+
+    { "predicate": { "custom_model_data": 5700058 }, "model": "dungeondodge:item/gift_compressor" },
+    { "predicate": { "custom_model_data": 5700059 }, "model": "minecraft:item/template_skull" }
   ]
 }
