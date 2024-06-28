@@ -2,6 +2,22 @@
   "parent": "minecraft:item/template_skull",
   
   "overrides": [
+    { "predicate": { "custom_model_data": 4000000 }, "model": "dungeondodge:item/compressor_v1" },
+    { "predicate": { "custom_model_data": 4000001 }, "model": "dungeondodge:item/compressor_v2" },
+    { "predicate": { "custom_model_data": 4000002 }, "model": "dungeondodge:item/compressor_v3" },
+    { "predicate": { "custom_model_data": 4000003 }, "model": "minecraft:item/template_skull" },
+
+    { "predicate": { "custom_model_data": 4000030 }, "model": "dungeondodge:item/deleter_v1" },
+    { "predicate": { "custom_model_data": 4000031 }, "model": "dungeondodge:item/deleter_v2" },
+    { "predicate": { "custom_model_data": 4000032 }, "model": "dungeondodge:item/deleter_v3" },
+    { "predicate": { "custom_model_data": 4000033 }, "model": "minecraft:item/template_skull" },
+
+    { "predicate": { "custom_model_data": 4000039 }, "model": "dungeondodge:item/deleter_v4" },
+    { "predicate": { "custom_model_data": 4000040 }, "model": "minecraft:item/template_skull" },
+
+    { "predicate": { "custom_model_data": 4000067 }, "model": "dungeondodge:item/compressor_v4" },
+    { "predicate": { "custom_model_data": 4000068 }, "model": "minecraft:item/template_skull" },
+
     { "predicate": { "custom_model_data": 5000004 }, "model": "dungeondodge:item/hard_rock" },
     { "predicate": { "custom_model_data": 5000005 }, "model": "minecraft:item/template_skull" },
 
