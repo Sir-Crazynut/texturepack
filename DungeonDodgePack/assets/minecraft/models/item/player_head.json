@@ -5,6 +5,9 @@
     { "predicate": { "custom_model_data": 5000004 }, "model": "dungeondodge:item/hard_rock" },
     { "predicate": { "custom_model_data": 5000005 }, "model": "minecraft:item/template_skull" },
 
+    { "predicate": { "custom_model_data": 5000060 }, "model": "dungeondodge:item/coin_pouch" },
+    { "predicate": { "custom_model_data": 5000061 }, "model": "minecraft:item/template_skull" },
+
     { "predicate": { "custom_model_data": 5000079 }, "model": "dungeondodge:item/copper_reel" },
 
     { "predicate": { "custom_model_data": 5000080 }, "model": "dungeondodge:item/silver_reel" },
