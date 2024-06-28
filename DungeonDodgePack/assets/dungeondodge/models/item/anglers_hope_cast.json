@@ -1,0 +1,6 @@
+{
+    "parent": "dungeondodge:item/anglers_hope",
+    "textures": {
+        "layer0": "dungeondodge:item/anglers_hope_cast"
+    }
+}
