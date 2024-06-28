@@ -9,6 +9,8 @@
 
     { "predicate": { "custom_model_data": 5000080 }, "model": "dungeondodge:item/silver_reel" },
 
+    { "predicate": { "custom_model_data": 5000081 }, "model": "dungeondodge:item/golden_reel" },
+
     { "predicate": { "custom_model_data": 5000088 }, "model": "dungeondodge:item/hydrous_shard" },
     { "predicate": { "custom_model_data": 5000089 }, "model": "minecraft:item/template_skull" },
 
