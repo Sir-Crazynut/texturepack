@@ -1,0 +1,6 @@
+{
+    "parent": "dungeondodge:item/sturdy_rod",
+    "textures": {
+        "layer0": "dungeondodge:item/sturdy_rod_cast"
+    }
+}
