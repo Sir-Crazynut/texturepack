@@ -6,14 +6,18 @@
     "overrides": [
         { "predicate": { "cast": 1 }, "model": "minecraft:item/fishing_rod_cast" },
 
-        { "predicate": { "custom_model_data": 2000000            }, "model": "dungeondodge:item/fishing_rod"      },
-        { "predicate": { "custom_model_data": 2000000, "cast": 1 }, "model": "dungeondodge:item/fishing_rod_cast" },
-        { "predicate": { "custom_model_data": 2000001            }, "model": "dungeondodge:item/casters_rod"      },
-        { "predicate": { "custom_model_data": 2000001, "cast": 1 }, "model": "dungeondodge:item/casters_rod_cast" },
-        { "predicate": { "custom_model_data": 2000002            }, "model": "dungeondodge:item/sturdy_rod"       },
-        { "predicate": { "custom_model_data": 2000002, "cast": 1 }, "model": "dungeondodge:item/sturdy_rod_cast"  },
-        { "predicate": { "custom_model_data": 2000003            }, "model": "dungeondodge:item/oceanic_rod"      },
-        { "predicate": { "custom_model_data": 2000003, "cast": 1 }, "model": "dungeondodge:item/oceanic_rod_cast" },
-        { "predicate": { "custom_model_data": 2000004 }, "model": "minecraft:item/fishing_rod" }
+        { "predicate": { "custom_model_data": 2000000            }, "model": "dungeondodge:item/fishing_rod"        },
+        { "predicate": { "custom_model_data": 2000000, "cast": 1 }, "model": "dungeondodge:item/fishing_rod_cast"   },
+        { "predicate": { "custom_model_data": 2000001            }, "model": "dungeondodge:item/casters_rod"        },
+        { "predicate": { "custom_model_data": 2000001, "cast": 1 }, "model": "dungeondodge:item/casters_rod_cast"   },
+        { "predicate": { "custom_model_data": 2000002            }, "model": "dungeondodge:item/sturdy_rod"         },
+        { "predicate": { "custom_model_data": 2000002, "cast": 1 }, "model": "dungeondodge:item/sturdy_rod_cast"    },
+        { "predicate": { "custom_model_data": 2000003            }, "model": "dungeondodge:item/oceanic_rod"        },
+        { "predicate": { "custom_model_data": 2000003, "cast": 1 }, "model": "dungeondodge:item/oceanic_rod_cast"   },
+        { "predicate": { "custom_model_data": 2000004 }, "model": "minecraft:item/fishing_rod" },
+
+        { "predicate": { "custom_model_data": 2000008            }, "model": "dungeondodge:item/overlords_rod"      },
+        { "predicate": { "custom_model_data": 2000008, "cast": 1 }, "model": "dungeondodge:item/overlords_rod_cast" },
+        { "predicate": { "custom_model_data": 2000009 }, "model": "minecraft:item/fishing_rod" }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "dungeondodge:item/overlords_rod",
+    "textures": {
+        "layer0": "dungeondodge:item/overlords_rod_cast"
+    }
+}
