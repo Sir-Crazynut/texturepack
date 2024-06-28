@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/end_rod",
+  
+  "overrides": [
+    { "predicate": { "custom_model_data": 1000014 }, "model": "dungeondodge:item/iron_wand" },
+    { "predicate": { "custom_model_data": 1000015 }, "model": "minecraft:item/end_rod" }
+  ]
+}
