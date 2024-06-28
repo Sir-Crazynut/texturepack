@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/snout_armor_trim_smithing_template"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 1000040 }, "model": "dungeondodge:item/rock_tome" },
+    { "predicate": { "custom_model_data": 1000041 }, "model": "minecraft:item/snout_armor_trim_smithing_template" }
+  ]
+}
