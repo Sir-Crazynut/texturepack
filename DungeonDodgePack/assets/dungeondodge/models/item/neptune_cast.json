@@ -1,0 +1,6 @@
+{
+    "parent": "dungeondodge:item/neptune",
+    "textures": {
+        "layer0": "dungeondodge:item/neptune_cast"
+    }
+}
