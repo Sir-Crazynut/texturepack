@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/shaper_armor_trim_smithing_template"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 1000040 }, "model": "dungeondodge:item/frost_tome" },
+    { "predicate": { "custom_model_data": 1000041 }, "model": "minecraft:item/shaper_armor_trim_smithing_template" }
+  ]
+}
