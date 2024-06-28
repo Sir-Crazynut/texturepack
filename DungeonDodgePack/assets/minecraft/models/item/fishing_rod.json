@@ -18,7 +18,9 @@
 
         { "predicate": { "custom_model_data": 2000008            }, "model": "dungeondodge:item/overlords_rod"      },
         { "predicate": { "custom_model_data": 2000008, "cast": 1 }, "model": "dungeondodge:item/overlords_rod_cast" },
-        { "predicate": { "custom_model_data": 2000009 }, "model": "minecraft:item/fishing_rod" },
+        { "predicate": { "custom_model_data": 2000009            }, "model": "dungeondodge:item/poseidon"           },
+        { "predicate": { "custom_model_data": 2000009, "cast": 1 }, "model": "dungeondodge:item/poseidon_cast"      },
+        { "predicate": { "custom_model_data": 2000010 }, "model": "minecraft:item/fishing_rod" },
 
         { "predicate": { "custom_model_data": 2000012            }, "model": "dungeondodge:item/neptune"            },
         { "predicate": { "custom_model_data": 2000012, "cast": 1 }, "model": "dungeondodge:item/neptune_cast"       },

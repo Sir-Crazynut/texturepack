@@ -1,0 +1,6 @@
+{
+    "parent": "dungeondodge:item/poseidon",
+    "textures": {
+        "layer0": "dungeondodge:item/poseidon_cast"
+    }
+}
