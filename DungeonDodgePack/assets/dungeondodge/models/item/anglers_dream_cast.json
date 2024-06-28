@@ -1,0 +1,6 @@
+{
+    "parent": "dungeondodge:item/anglers_dream",
+    "textures": {
+        "layer0": "dungeondodge:item/anglers_dream_cast"
+    }
+}
