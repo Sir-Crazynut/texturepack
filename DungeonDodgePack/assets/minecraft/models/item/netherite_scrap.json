@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/netherite_scrap"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000056 }, "model": "dungeondodge:item/plating" },
+    { "predicate": { "custom_model_data": 5000057 }, "model": "minecraft:item/netherite_scrap" }
+  ]
+}
