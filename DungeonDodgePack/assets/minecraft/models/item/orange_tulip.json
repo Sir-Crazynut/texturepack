@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/orange_tulip"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000053 }, "model": "dungeondodge:item/glowing_flower" },
+    { "predicate": { "custom_model_data": 5000054 }, "model": "minecraft:item/orange_tulip" }
+  ]
+}
