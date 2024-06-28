@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/disc_fragment_5"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000054 }, "model": "dungeondodge:item/lizard_scale" },
+    { "predicate": { "custom_model_data": 5000055 }, "model": "minecraft:item/disc_fragment_5" }
+  ]
+}
