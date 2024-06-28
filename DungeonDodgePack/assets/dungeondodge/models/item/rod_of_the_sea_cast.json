@@ -1,0 +1,6 @@
+{
+    "parent": "dungeondodge:item/rod_of_the_sea",
+    "textures": {
+        "layer0": "dungeondodge:item/rod_of_the_sea_cast"
+    }
+}

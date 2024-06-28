@@ -16,8 +16,8 @@
         { "predicate": { "custom_model_data": 2000003, "cast": 1 }, "model": "dungeondodge:item/oceanic_rod_cast"       },
         { "predicate": { "custom_model_data": 2000004            }, "model": "dungeondodge:item/deep_sea_rod"           },
         { "predicate": { "custom_model_data": 2000004, "cast": 1 }, "model": "dungeondodge:item/deep_sea_rod_cast"      },
-        { "predicate": { "custom_model_data": 2000005 }, "model": "minecraft:item/fishing_rod" },
-
+        { "predicate": { "custom_model_data": 2000005            }, "model": "dungeondodge:item/rod_of_the_sea"         },
+        { "predicate": { "custom_model_data": 2000005, "cast": 1 }, "model": "dungeondodge:item/rod_of_the_sea_cast"    },
         { "predicate": { "custom_model_data": 2000006            }, "model": "dungeondodge:item/anglers_wish"           },
         { "predicate": { "custom_model_data": 2000006, "cast": 1 }, "model": "dungeondodge:item/anglers_wish_cast"      },
         { "predicate": { "custom_model_data": 2000007            }, "model": "dungeondodge:item/anglers_dream"          },
