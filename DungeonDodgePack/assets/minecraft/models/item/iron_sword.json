@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 1000059 }, "model": "dungeondodge:item/windswept_katana" },
+    { "predicate": { "custom_model_data": 1000060 }, "model": "minecraft:item/iron_sword" }
+  ]
+}
