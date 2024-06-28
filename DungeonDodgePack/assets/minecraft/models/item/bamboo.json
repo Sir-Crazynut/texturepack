@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/bamboo"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000055 }, "model": "dungeondodge:item/bamboo_blaster" },
+    { "predicate": { "custom_model_data": 5000056 }, "model": "minecraft:item/bamboo" }
+  ]
+}
