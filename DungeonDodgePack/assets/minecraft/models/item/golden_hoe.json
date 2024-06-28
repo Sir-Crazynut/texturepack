@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_hoe"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000119 }, "model": "dungeondodge:item/anubis" },
+    { "predicate": { "custom_model_data": 5000120 }, "model": "minecraft:item/golden_hoe" }
+  ]
+}
