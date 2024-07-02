@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/e_bone"
+    "layer0": "dungeondodge:item/enchanted_bone"
   }
 }
