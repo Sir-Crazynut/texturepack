@@ -4,17 +4,7 @@
     "layer0": "minecraft:item/rotten_flesh"
   },
   "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 5000000
-      },
-      "model": "minecraft:item/rotten_flesh"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 5000010
-      },
-      "model": "minecraft:item/e_rotten_flesh"
-    }
+    { "predicate": { "custom_model_data": 5000010 }, "model": "dungeondodge:item/enchanted_rotten_flesh" },
+    { "predicate": { "custom_model_data": 5000011 }, "model": "minecraft:item/rotten_flesh" }
   ]
 }
