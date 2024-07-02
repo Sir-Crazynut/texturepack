@@ -7,6 +7,6 @@
   "overrides": [
     { "predicate": { "custom_model_data": 1000002 }, "model": "dungeondodge:item/bone_blade" },
     { "predicate": { "custom_model_data": 5000012 }, "model": "minecraft:item/bone" },
-    { "predicate": { "custom_model_data": 5000011 }, "model": "minecraft:item/enchanted_bone" }
+    { "predicate": { "custom_model_data": 5000011 }, "model": "dungeondodge:item/enchanted_bone" }
   ]
 }
