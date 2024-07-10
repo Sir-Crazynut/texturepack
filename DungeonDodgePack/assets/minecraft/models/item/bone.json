@@ -1,12 +1,34 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/bone"
-  },
- 
-  "overrides": [
-    { "predicate": { "custom_model_data": 1000002 }, "model": "dungeondodge:item/bone_blade" },
-    { "predicate": { "custom_model_data": 5000011 }, "model": "dungeondodge:item/enchanted_bone" },
-    { "predicate": { "custom_model_data": 5000012 }, "model": "minecraft:item/bone" }
-  ]
-}
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/bone_blade"
+    },  
+  "display": {
+      "head": {
+          "rotation": [ 0, 0, -45 ],
+          "translation": [ 0, -4.5, -6.5],
+          "scale":[ 1, 1, 1 ]
+      }
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 1000002
+        },
+        "model": "minecraft:item/bone_blade"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 5000001
+        },
+        "model": "minecraft:item/bone_item"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 5000011
+        },
+        "model": "minecraft:item/e_bone"
+      }
+    ]
+  }
+  
