@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/pufferfish"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000085 }, "model": "dungeondodge:item/enchanted_pufferfish" },
+    { "predicate": { "custom_model_data": 5000086 }, "model": "minecraft:item/pufferfish" }
+  ]
+}
