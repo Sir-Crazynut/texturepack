@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/salmon"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000083 }, "model": "dungeondodge:item/enchanted_salmon" },
+    { "predicate": { "custom_model_data": 5000084 }, "model": "minecraft:item/salmon" }
+  ]
+}
