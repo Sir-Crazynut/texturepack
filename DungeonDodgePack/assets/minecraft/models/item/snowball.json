@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/snowball"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000017 }, "model": "dungeondodge:item/enchanted_snowball" },
+    { "predicate": { "custom_model_data": 5000018 }, "model": "minecraft:item/snowball" }
+  ]
+}
