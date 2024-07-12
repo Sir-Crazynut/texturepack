@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/lily_pad"
+  },
+ 
+  "overrides": [
+    { "predicate": { "custom_model_data": 5000084 }, "model": "dungeondodge:item/enchanted_lily_pad" },
+    { "predicate": { "custom_model_data": 5000085 }, "model": "minecraft:item/lily_pad" }
+  ]
+}
